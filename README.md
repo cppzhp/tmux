@@ -15,15 +15,15 @@ alias t='tmux -2'
 
 t              #创建新的会话
 
-t new -s name  #创建新的会话
+t new -s name  #创建新的会话(s:session)
 
 t ls           #查看所有会话
 
 t a            #attach到上次detach的会话
 
-t a -t n       #attach到编号为n的会话
+t a -t n       #attach到编号为n的会话(t:target)
 
-t a -t name    #attach到name会话
+t a -t name    #attach到name会话(t:target)
 
 C-d            #关闭当前会话
 
