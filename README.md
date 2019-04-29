@@ -1,7 +1,7 @@
 # tmux
 
 
-##tmux结构
+## tmux结构
 
 server-session-window-pane
 
@@ -11,7 +11,7 @@ server-session-window-pane
 alias t='tmux -2'
 
 
-##session
+## session
 
 t              #创建新的会话
 
@@ -38,7 +38,7 @@ C-x ?          #帮助
 C-x t          #时间
 
 
-##window
+## window
 
 C-x c          #创建新的窗口
 
@@ -53,7 +53,7 @@ C-x n          #跳转到编号为n的窗口
 C-x ,          #修改当前窗口名字
 
 
-##pane
+## pane
 
 C-x s          #在当前窗口，水平分割出一个面板
 
@@ -72,7 +72,7 @@ C-x q          #显示面板编号
 C-x x          #关闭当前面板
 
 
-##copy-mode
+## copy-mode
 
 C-x [          #进去复制模式（或者C-x pageup/pagedown），可以使用vi快捷键翻页、跳转、搜索等
 
@@ -83,7 +83,7 @@ Enter          #复制并退出copy-mode
 C-x ]          #粘贴
 
 
-##鼠标复制、粘贴
+## 鼠标复制、粘贴
 
 shift+鼠标左键 #复制
 
